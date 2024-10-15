@@ -27,7 +27,7 @@ function Navbar() {
                   {isActive ? (
                     <>
                       <img
-                        className="navbar__link-logo"
+                        className="navbar__border"
                         src={BorderIcon}
                         alt="Icon Border"
                       />
@@ -41,7 +41,7 @@ function Navbar() {
                   ) : (
                     <>
                       <img
-                        className="navbar__link-logo"
+                        className="navbar__border"
                         src={BorderIconDisabled}
                         alt="Icon Border"
                       />

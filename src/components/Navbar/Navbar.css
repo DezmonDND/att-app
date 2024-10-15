@@ -43,12 +43,16 @@
 .navbar__link {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 29px;
   text-decoration: none;
   color: #b1b1b1;
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
+}
+
+.navbar__border {
+  margin-right: 7px;
 }
 
 @media screen and (max-width: 650px) {
