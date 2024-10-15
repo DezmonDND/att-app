@@ -1,0 +1,19 @@
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  overflow-y: auto;
+}
+
+@media screen and (max-width: 800px) {
+  .content {
+    margin: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .content {
+    border-radius: 15px;
+  }
+}

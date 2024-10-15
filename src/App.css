@@ -1,0 +1,10 @@
+.App {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: calc(100vh - 16px);
+  font-family: 'Inter';
+  font-weight: 400;
+  color: #232323;
+}
